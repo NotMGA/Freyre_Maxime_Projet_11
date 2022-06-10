@@ -1,0 +1,26 @@
+.lmj-banner {
+  color: red;
+  text-align: right;
+  padding: 32px;
+  border-bottom: solid 3px black;
+}
+
+.header-global {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-left: 3%;
+}
+
+.Header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+}
+
+.header-accueil,
+.header-apropos {
+  margin-right: 10%;
+  color: red;
+}

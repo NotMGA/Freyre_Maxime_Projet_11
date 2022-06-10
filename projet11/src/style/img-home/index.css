@@ -1,0 +1,27 @@
+.home-background {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 94%;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.img_background {
+  width: 100%;
+  filter: brightness(70%);
+  border-radius: 25px;
+}
+
+.txt-background {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 30%;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 48px;
+  color: white;
+}

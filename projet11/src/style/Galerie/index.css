@@ -1,0 +1,21 @@
+.img-galerie {
+  object-fit: cover;
+  width: 100%;
+}
+.container-galerie {
+  display: flex;
+  position: relative;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.img-vectorL {
+  position: absolute;
+  bottom: 50%;
+}
+
+.img-vectorR {
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+}

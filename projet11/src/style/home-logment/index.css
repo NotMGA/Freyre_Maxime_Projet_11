@@ -1,0 +1,34 @@
+.container-logments {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  justify-content: space-evenly;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  padding: 1%;
+}
+.logment {
+  width: 29%;
+  position: relative;
+  margin: 2%;
+}
+
+.img-logement {
+  width: 100%;
+  height: 23em;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.title-logement {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  margin: 5%;
+}
