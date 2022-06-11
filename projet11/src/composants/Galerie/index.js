@@ -6,7 +6,6 @@ import '../../style/Galerie/index.css'
 
 function Galerie() {
   const { id } = useParams()
-
   var { Logement } = {}
   var nbimg = 0
   var display = 'displayT'
