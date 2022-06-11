@@ -39,6 +39,8 @@
 }
 .tag_name {
   display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
 }
 
 .tags {
@@ -52,6 +54,10 @@
   width: 115px;
   font-weight: 500;
   font-size: 14px;
-  display: inline;
+  display: flex;
+  align-items: center;
   white-space: nowrap;
+  padding-right: 3%;
+  padding-left: 3%;
+  color: white;
 }
