@@ -5,7 +5,7 @@ function logementhome() {
   return (
     <div className="container-logments">
       {Logements.map((Logement) => (
-        <div className="logment">
+        <div key={Logement.id} className="logment">
           <Link to={'/logement/' + Logement.id}>
             <img
               className="img-logement"

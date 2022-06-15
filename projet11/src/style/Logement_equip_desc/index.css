@@ -1,0 +1,49 @@
+.container-descri {
+  margin: 3%;
+  margin-bottom: 2%;
+  margin-top: 0%;
+  display: flex;
+  background-color: #ff6060;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  align-items: center;
+  height: 10%;
+  width: 50%;
+}
+
+.txt-descri {
+  width: 100%;
+  background-color: #f7f7f7;
+  color: #ff6060;
+  padding: 1%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.txt-descri li {
+  list-style-type: none;
+}
+.container-equip-desc {
+  display: flex;
+}
+
+.on {
+  display: block;
+}
+
+.off {
+  display: none;
+}
+
+.titre-descri {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  padding: 2%;
+}
+
+.img-descri {
+  height: 100%;
+  margin-right: 2%;
+}

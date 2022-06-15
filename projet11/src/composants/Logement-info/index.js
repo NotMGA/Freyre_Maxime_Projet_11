@@ -13,7 +13,6 @@ function Information() {
     }
   }
   for (let i = 0; i < Logement.rating; i++) {
-    console.log(star)
     star.splice(i, 1, StarP)
   }
   console.log(star[1])
@@ -36,7 +35,10 @@ function Information() {
       <div className="tag_name">
         <div className="tags">
           {Logement.tags.map((tag) => (
-            <div className="tag">{tag}</div>
+            //modif du tag
+            <div key={tag} className="tag">
+              {tag}
+            </div>
           ))}
         </div>
         <div>
