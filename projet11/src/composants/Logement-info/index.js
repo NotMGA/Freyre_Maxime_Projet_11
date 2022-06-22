@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import Logements from '../../BDD/logment.json'
 import StarP from '../../assets/starP.png'
 import StarV from '../../assets/starV.png'
+import Tag from '../Logment_tags'
 function Information() {
   const { id } = useParams()
   var { Logement } = {}
@@ -15,7 +16,7 @@ function Information() {
   for (let i = 0; i < Logement.rating; i++) {
     star.splice(i, 1, StarP)
   }
-  console.log(star[1])
+  console.log(Logement.tags)
   return (
     <div className="container-info">
       <div className="titre_nom">
@@ -33,14 +34,7 @@ function Information() {
         </div>
       </div>
       <div className="tag_name">
-        <div className="tags">
-          {Logement.tags.map((tag) => (
-            //modif du tag
-            <div key={tag} className="tag">
-              {tag}
-            </div>
-          ))}
-        </div>
+        <Tag tags={Logement.tags} />
         <div>
           <img className="star" src={star[0]} alt="star"></img>
           <img className="star" src={star[1]} alt="star"></img>

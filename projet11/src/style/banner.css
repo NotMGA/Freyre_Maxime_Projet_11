@@ -23,4 +23,13 @@
 .header-apropos {
   margin-right: 10%;
   color: red;
+  text-decoration: none;
+}
+
+.underline-on {
+  text-decoration: underline;
+}
+
+.underline-off {
+  text-decoration: none;
 }
