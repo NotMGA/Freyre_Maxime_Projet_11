@@ -8,10 +8,16 @@ import Equipement from '../../composants/Logment_equip'
 function PageLogement() {
   const { id } = useParams()
   var { Logement } = {}
+  var page = false
+  console.log(Logements.id)
   for (let i = 0; i < Logements.length; i++) {
     if (Logements[i].id === id) {
       Logement = Logements[i]
+      page = true
     }
+  }
+  if (page === false) {
+    document.location.href = '/error'
   }
   return (
     <div>

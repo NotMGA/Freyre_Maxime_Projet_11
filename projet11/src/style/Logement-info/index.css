@@ -16,8 +16,7 @@
   font-size: 36px;
   color: #ff6060;
 }
-.location-info {
-}
+
 .nom_img {
   display: flex;
   align-items: center;
@@ -35,8 +34,6 @@
   margin-left: 2%;
 }
 
-.star {
-}
 .tag_name {
   display: flex;
   justify-content: space-between;
@@ -60,4 +57,13 @@
   padding-right: 3%;
   padding-left: 3%;
   color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .titre-info {
+    font-size: 20px;
+  }
+  .star {
+    width: 20%;
+  }
 }

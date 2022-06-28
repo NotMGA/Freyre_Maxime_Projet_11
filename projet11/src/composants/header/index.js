@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Kasa from '../../assets/Kasa.PNG'
+import '../../style/header/banner.css'
 
 function Header() {
   const url = window.location.href

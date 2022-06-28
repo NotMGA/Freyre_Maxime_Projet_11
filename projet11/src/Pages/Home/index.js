@@ -1,3 +1,4 @@
+import Footer from '../../composants/Footer'
 import Header from '../../composants/header'
 import Bandeauhome from '../../composants/home-img'
 import Logementhome from '../../composants/home-logement'
@@ -7,6 +8,7 @@ function home() {
       <Header />
       <Bandeauhome />
       <Logementhome />
+      <Footer />
     </div>
   )
 }
