@@ -66,4 +66,11 @@
   .star {
     width: 20%;
   }
+
+  .tag {
+    margin-bottom: 1%;
+  }
+  .tags {
+    flex-wrap: wrap;
+  }
 }
