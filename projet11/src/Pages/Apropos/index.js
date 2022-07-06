@@ -2,6 +2,8 @@ import Apropos from '../../composants/Apropos'
 import Footer from '../../composants/Footer'
 import Header from '../../composants/header'
 import Imgapropos from '../../assets/apropos.png'
+import Equipement from '../../composants/Logment_equip'
+import '../../style/page-appropos/index.css'
 
 function PageApropos() {
   return (
@@ -13,24 +15,26 @@ function PageApropos() {
           src={Imgapropos}
           alt="background"
         ></img>
-        <Apropos
-          titre="Fiabilité"
-          description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les
+        <div className="page-appropos">
+          <Equipement
+            titre="Fiabilité"
+            description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les
           photos sont conformes aux logements, et toutes les informations sont
           régulièrement vérifiées par nos équipes."
-        />
-        <Apropos
-          titre="Respect"
-          description="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
-        />
-        <Apropos
-          titre="Service"
-          description="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."
-        />
-        <Apropos
-          titre="Sécurité"
-          description="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
-        />
+          />
+          <Equipement
+            titre="Respect"
+            description="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
+          />
+          <Equipement
+            titre="Service"
+            description="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."
+          />
+          <Equipement
+            titre="Sécurité"
+            description="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
+          />
+        </div>
       </div>
 
       <Footer />
